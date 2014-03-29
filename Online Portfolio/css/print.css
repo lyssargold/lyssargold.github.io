@@ -1,0 +1,35 @@
+@media print{
+	
+	body{
+		font-family: "Helvetica Neue", Arial, sans-serif;
+		font-size: 12px;
+		color: black;
+	}
+
+	h1, h2, h3, h4{
+		font-family: "Helvetica Neue", Arial, sans-serif;
+	}
+
+	img{
+		background-color: none;
+		border: none;
+	}
+	
+	nav, footer{
+		display: none;
+	}
+
+	a:after {
+		content: " (" attr(href) ")";
+		font-size: 80%;
+	}
+
+	a[href^="#"]:after {
+	display: none;
+	}
+
+	.category{
+	font-weight: bold;
+	}
+
+}
