@@ -82,10 +82,11 @@ nav ul li a:hover{
 
 #container {
 	margin: 2em auto;
+	margin-bottom: 0;
+	margin-top: 0;
 	max-width: 75%;
 }
 
-/*Other font options: Flamenco, Bubbler One*/
 h1{
 	font-family: 'Raleway', sans-serif;
 	font-size: 3em;
@@ -170,18 +171,33 @@ footer{
 article{
 	border: 1px solid #ccc;
 	padding: 0.25em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.undo{
+	border: none;
+	padding: 0em;
+	margin: 0em;
+}
+
+article a:hover{
+	font-style: dotted;
 }
 
 .more {
 	display: none;
 	border-top: 1px solid #666;
 	border-bottom: 1px solid #666; }
+
 a.showLink, a.hideLink {
 	text-decoration: none;
 	color: #36f;
 	padding-left: 8px;
 	background: transparent url('down.gif') no-repeat left; }
+
 a.hideLink {
 	background: transparent url('up.gif') no-repeat left; }
+
 a.showLink:hover, a.hideLink:hover {
 	border-bottom: 1px dotted #36f; }
