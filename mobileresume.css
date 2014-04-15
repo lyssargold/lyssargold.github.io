@@ -1,0 +1,98 @@
+@media (max-width: 1142px){
+	.break{
+		clear: both;
+	}
+
+	nav ul li{
+		font-size: 0.9em;
+		padding: 0.25em;
+		margin: 0.25em;
+	}
+
+}
+
+@media (max-width: 800px){
+	.break{
+		clear: both;
+	}
+
+	nav ul li{
+		font-size: 0.8em;
+		padding: 0.2em;
+		margin: 0.2em;
+	}
+
+}
+
+@media (max-width: 768px){
+	body{
+		font-size: 1.2em;
+	}
+
+	#container{
+		max-width: 85%;
+	}
+
+	nav, nav ul, nav ul li, nav ul li:first-child, nav ul li a{
+		display: block;
+	}
+
+	nav ul li, nav ul li:first-child{
+		font-size: 1em;
+		text-align: center;
+		margin: 0.25em;
+		margin-left: 0;
+		padding: 0.2em;
+		width: 100%;
+	}
+
+	h1{
+		font-size: 3em;
+	}
+}
+
+@media (max-width: 635px){
+	.break2{
+		clear: both;
+	}
+}
+
+@media (max-width: 320px){
+	body{
+		font-size: 1.3em;
+	}
+
+	nav, nav ul, nav ul li, nav ul li:first-child, nav ul li a{
+		display: block;
+	}
+
+	nav ul li, nav ul li:first-child{
+		text-align: center;
+		font-size: 1em;
+		margin: 0.25em;
+		margin-left: 0;
+		padding: 0.2em;
+		width: 100%;
+	}
+
+	#container{
+		max-width: 90%;
+	}
+
+	h1{
+		font-size: 2em;
+	}
+
+	h2, h3{
+		font-family: 'Raleway', "Helvetic Neue", sans-serif;
+	}
+
+	section a:hover{
+		font-size: 1em;
+		color: black;
+	}
+
+	footer{
+		padding: 0.5em;
+	}
+}

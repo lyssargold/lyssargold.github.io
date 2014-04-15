@@ -1,8 +1,7 @@
 body{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', "Helvetic Neue", sans-serif;
 	font-size: 16px;
-	background-image: url("../img/grey.jpg");
-	background-repeat: repeat;
+	background: url("../img/grey.jpg") repeat;
 }
 
 section{
@@ -27,7 +26,6 @@ a{
 	color: #476DD5;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 1em;
 }
 
 section a:hover{
@@ -37,13 +35,6 @@ section a:hover{
 section a:visited{
 	color: #A66500;
 }
-
-/*
-nav{
-	margin-left: 2em;
-	margin-right: 2em;
-}
-*/
 
 nav ul{
 	color: white;
@@ -117,7 +108,6 @@ h3{
 }
 
 #about{
-	font-family: 'Lobster', cursive;
 	font-size: 2em;
 	letter-spacing: 0.05em;
 	color: #5CCCCC;
@@ -135,23 +125,27 @@ h3{
 	border-bottom: 2px dashed #ccc;
 }
 
+#show{
+	font-size: 1.25em;
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-bottom: 1.5em;
+	border-top: 2px dashed #ccc;
+	border-bottom: 2px dashed #ccc;
+}
+
 img{
 	display: inline;
 	float: left;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	margin-right: 1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-right: 0.5em;
-	padding-left: 0.5em;
+	margin-right: 1.5em;
+	padding: 0.5em;
 	background-color: white;
 	border: black 1px solid;
-}
-
-.block{
-	display: block;
-	float: none;
 }
 
 .photo{
@@ -190,8 +184,12 @@ article{
 	margin: 0em;
 }
 
+#hide{
+	display: none;
+}
+
 article a:hover{
-	font-style: dotted;
+	font-color: #000000;
 }
 
 footer{
@@ -203,23 +201,5 @@ footer{
 	color: white;
 	display: block;
 	clear: both;
+	margin-bottom: 0;
 }
-
-/*
-.more {
-	display: none;
-	border-top: 1px solid #666;
-	border-bottom: 1px solid #666; }
-
-a.showLink, a.hideLink {
-	text-decoration: none;
-	color: #36f;
-	padding-left: 8px;
-	background: transparent url('down.gif') no-repeat left; }
-
-a.hideLink {
-	background: transparent url('up.gif') no-repeat left; }
-
-a.showLink:hover, a.hideLink:hover {
-	border-bottom: 1px dotted #36f; }
-*/
