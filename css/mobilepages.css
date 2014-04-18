@@ -1,34 +1,34 @@
 @media (max-width: 1280px){
 	nav ul li{
-		font-size: 0.9em;
+		font-size: 1.1em;
 		padding: 0.25em;
 		margin: 0.25em;
 	}
 }
 
-@media (max-width: 1062px){
+@media (max-width: 1109px){
 	nav ul li{
-		font-size: 0.75em;
+		font-size: 1em;
 		padding: 0.15em;
 		margin: 0.15em;
 	}
 
 }
 
-@media (max-width: 882px){
+@media (max-width: 966px){
 
 	nav ul li{
-		font-size: 0.7em;
+		font-size: 0.9em;
 		padding: 0.1em;
 		margin: 0.1em;
 	}
 
 }
 
-@media (max-width: 801px){
+@media (max-width: 855px){
 
 	nav ul li{
-		font-size: 0.7em;
+		font-size: 0.8em;
 		padding: 0em;
 		margin: 0em;
 	}
