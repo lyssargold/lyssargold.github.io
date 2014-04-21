@@ -18,7 +18,7 @@ ul{
 }
 
 li{
-	line-height: 1.4em;
+	line-height: 1.3em;
 }
 
 section p:last-child{
@@ -44,10 +44,6 @@ article{
 	padding: 0.25em;
 	margin-top: 1em;
 	margin-bottom: 1em;
-}
-
-article a:hover{
-	font-color: #000000;
 }
 
 nav ul{
@@ -151,7 +147,7 @@ h3{
 img{
 	display: inline;
 	float: left;
-	margin: 0.5em 0.5em 1.5em 0;
+	margin: 0.5em 0.5em 1em 0;
 	padding: 0.5em;
 	background-color: white;
 	border: black 1px solid;
@@ -194,9 +190,13 @@ section ul li:before{
 	display: none;
 }
 
-.noborder{
+#noborder{
 	display: block;
 	background-color: transparent;
+}
+
+#centered{
+	text-align: center;
 }
 
 .clearfix{
