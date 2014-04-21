@@ -1,7 +1,6 @@
 body{
-	font-family: 'Raleway', "Helvetic Neue", sans-serif;
-	font-size: 16px;
-	background: url("../img/grey.jpg") repeat;
+	font: 16px 'Raleway', "Helvetica Neue", sans-serif;
+	background: url("../img/grey.png") repeat;
 }
 
 section{
@@ -13,9 +12,13 @@ p, h1, h2, h3{
 	margin: 0;
 }
 
-ul, li{
+ul{
 	padding-top: 0em;
 	margin-top: 0em;
+}
+
+li{
+	line-height: 1.4em;
 }
 
 section p:last-child{
@@ -28,8 +31,8 @@ a{
 	font-weight: bold;
 }
 
-section a:hover{
-	font-size: 1.25em;
+section a:hover, div a:hover{
+	letter-spacing: 0.25em;
 }
 
 section a:visited{
@@ -50,9 +53,7 @@ article a:hover{
 nav ul{
 	color: white;
 	list-style-type: none;
-	padding: 0;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding: 1em 0;
 }
 
 nav ul li{
@@ -90,9 +91,7 @@ nav ul li a:hover{
 }
 
 #container {
-	margin: 2em auto;
-	margin-bottom: 0;
-	margin-top: 0;
+	margin: 0 auto;
 	max-width: 75%;
 }
 
@@ -152,9 +151,7 @@ h3{
 img{
 	display: inline;
 	float: left;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	margin-right: 1.5em;
+	margin: 0.5em 0.5em 1.5em 0;
 	padding: 0.5em;
 	background-color: white;
 	border: black 1px solid;
