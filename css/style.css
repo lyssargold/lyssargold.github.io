@@ -3,10 +3,6 @@ body{
 	background: url("../img/grey.png") repeat;
 }
 
-section{
-	display: block;
-}
-
 p, h1, h2, h3{
 	padding: 0;
 	margin: 0;
@@ -41,9 +37,10 @@ section a:visited{
 
 article{
 	border: 1px solid #ccc;
-	padding: 0.25em;
+	padding: 0.4em;
 	margin-top: 1em;
 	margin-bottom: 1em;
+	background-color: rgba(255, 255, 255, 0.45);
 }
 
 nav ul{
@@ -122,11 +119,8 @@ h3{
 
 #intro{
 	font-size: 1.25em;
-	text-align: center;
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
-	margin-left: 3em;
-	margin-right: 3em;
 	margin-bottom: 1.5em;
 	border-top: 2px dashed #ccc;
 	border-bottom: 2px dashed #ccc;
@@ -153,9 +147,22 @@ img{
 	border: black 1px solid;
 }
 
-.photo{
+.photos{
+	margin: 0 auto;
 	max-width: 560px;
-	padding-bottom: 1.5em;
+}
+
+.photos img{
+	padding: 0.5em;
+	margin-bottom: 0.25em;
+	background-color: white;
+	border: black 1px solid;
+	width: 100%;
+}
+
+.photos p{
+	padding-top: 0;
+	padding-bottom: 2em;
 }
 
 .block{
