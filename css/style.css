@@ -43,6 +43,19 @@ article{
 	background-color: rgba(255, 255, 255, 0.45);
 }
 
+article p{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+section article p:last-child{
+	padding-bottom: 0;
+}
+
+.title{
+	padding: 0;
+}
+
 nav ul{
 	color: white;
 	list-style-type: none;
@@ -128,11 +141,8 @@ h3{
 
 #show{
 	font-size: 1.25em;
-	text-align: center;
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
-	margin-left: 3em;
-	margin-right: 3em;
 	margin-bottom: 1.5em;
 	border-top: 2px dashed #ccc;
 	border-bottom: 2px dashed #ccc;
@@ -191,6 +201,7 @@ section ul li:before{
 	border: none;
 	padding: 0em;
 	margin: 0em;
+	background-color: transparent;
 }
 
 #hide{
@@ -202,7 +213,7 @@ section ul li:before{
 	background-color: transparent;
 }
 
-#centered{
+.centered{
 	text-align: center;
 }
 
