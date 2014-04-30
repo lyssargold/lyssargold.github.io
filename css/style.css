@@ -3,9 +3,37 @@ body{
 	background: url("../img/grey.png") repeat;
 }
 
+#container {
+	margin: 0 auto;
+	max-width: 75%;
+}
+
 p, h1, h2, h3{
 	padding: 0;
 	margin: 0;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 3em;
+	letter-spacing: -0.1em;
+	padding: 0.25em;
+	padding-bottom: 0;
+	background-color: orange;
+	color: white;
+}
+
+h2{
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.05em;
+	color: #5CCCCC;
+	padding: 0;
+	margin: 0;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif;
+	color: orange;
 }
 
 ul{
@@ -15,6 +43,16 @@ ul{
 
 li{
 	line-height: 1.3em;
+}
+
+section ul{
+	list-style-type: disc;
+}
+
+section ul li:before{
+	list-style-type: disc;
+	color: #5CCCCC;
+	padding-right: 0.5em;
 }
 
 section p:last-child{
@@ -50,10 +88,6 @@ article p{
 
 section article p:last-child{
 	padding-bottom: 0;
-}
-
-.title{
-	padding: 0;
 }
 
 nav ul{
@@ -96,32 +130,70 @@ nav ul li a:hover{
 	border-radius: 5px;
 }
 
-#container {
-	margin: 0 auto;
-	max-width: 75%;
-}
-
-h1{
+footer{
 	font-family: 'Raleway', sans-serif;
-	font-size: 3em;
-	letter-spacing: -0.1em;
-	padding: 0.25em;
-	padding-bottom: 0;
-	background-color: orange;
+	font-size: 0.75em;
+	padding: 2em;
+	margin-top: 2em;
+	background-color: #5CCCCC;
 	color: white;
+	display: block;
+	clear: both;
+	margin-bottom: 0;
 }
 
-h2{
-	font-family: 'Lobster', cursive;
-	letter-spacing: 0.05em;
-	color: #5CCCCC;
-	padding: 0;
-	margin: 0;
+img{
+	display: inline;
+	float: left;
+	margin: 0.5em 0.5em 1em 0;
+	padding: 0.5em;
+	background-color: white;
+	border: black 1px solid;
 }
 
-h3{
-	font-family: 'Raleway', sans-serif;
+section img:last-child{
+	margin-bottom: 3em;
+}
+
+.photos{
+	margin: 0 auto;
+	max-width: 560px;
+}
+
+.photos img{
+	padding: 0.5em;
+	margin-bottom: 0.25em;
+	background-color: white;
+	border: black 1px solid;
+	width: 100%;
+}
+
+.photos p{
+	padding-top: 0;
+	padding-bottom: 2em;
+}
+
+.category{
 	color: orange;
+}
+
+.undo{
+	border: none;
+	padding: 0em;
+	margin: 0em;
+	background-color: transparent;
+}
+
+.centered{
+	text-align: center;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.title{
+	padding: 0;
 }
 
 #widen{
@@ -148,62 +220,6 @@ h3{
 	border-bottom: 2px dashed #ccc;
 }
 
-img{
-	display: inline;
-	float: left;
-	margin: 0.5em 0.5em 1em 0;
-	padding: 0.5em;
-	background-color: white;
-	border: black 1px solid;
-}
-
-.photos{
-	margin: 0 auto;
-	max-width: 560px;
-}
-
-.photos img{
-	padding: 0.5em;
-	margin-bottom: 0.25em;
-	background-color: white;
-	border: black 1px solid;
-	width: 100%;
-}
-
-.photos p{
-	padding-top: 0;
-	padding-bottom: 2em;
-}
-
-.block{
-	display: block;
-}
-
-section ul{
-	list-style-type: disc;
-}
-
-section ul li:before{
-	list-style-type: disc;
-	color: #5CCCCC;
-	padding-right: 0.5em;
-}
-
-.category{
-	color: orange;
-}
-
-#depad{
-	margin-bottom: 0.2em;
-}
-
-.undo{
-	border: none;
-	padding: 0em;
-	margin: 0em;
-	background-color: transparent;
-}
-
 #hide{
 	display: none;
 }
@@ -213,26 +229,6 @@ section ul li:before{
 	background-color: transparent;
 }
 
-.centered{
-	text-align: center;
-}
-
-.clearfix{
-	clear: both;
-}
-
-section img:last-child{
-	margin-bottom: 3em;
-}
-
-footer{
-	font-family: 'Raleway', sans-serif;
-	font-size: 0.75em;
-	padding: 2em;
-	margin-top: 2em;
-	background-color: #5CCCCC;
-	color: white;
-	display: block;
-	clear: both;
-	margin-bottom: 0;
+#depad{
+	margin-bottom: 0.2em;
 }

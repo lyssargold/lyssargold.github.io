@@ -6,7 +6,7 @@
 	}
 }
 
-@media (max-width: 1109px){
+@media (max-width: 1158px){
 	nav ul li{
 		font-size: 1em;
 		padding: 0.15em;
@@ -15,7 +15,7 @@
 
 }
 
-@media (max-width: 966px){
+@media (max-width: 997px){
 
 	nav ul li{
 		font-size: 0.9em;

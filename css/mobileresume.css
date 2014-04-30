@@ -1,8 +1,4 @@
 @media (max-width: 1600px){
-	.break{
-		clear: both;
-	}
-
 	nav ul li{
 		font-size: 1.05em;
 		padding: 0.25em;
@@ -11,11 +7,7 @@
 
 }
 
-@media (max-width: 1037px){
-	.break{
-		clear: both;
-	}
-
+@media (max-width: 1084px){
 	nav ul li{
 		font-size: 0.9em;
 		padding: 0.2em;
@@ -24,11 +16,7 @@
 
 }
 
-@media (max-width: 881px){
-	.break{
-		clear: both;
-	}
-
+@media (max-width: 935px){
 	nav ul li{
 		font-size: 0.8em;
 		padding: 0.1em;
@@ -65,12 +53,6 @@
 
 	h1{
 		font-size: 3em;
-	}
-}
-
-@media (max-width: 635px){
-	.break2{
-		clear: both;
 	}
 }
 
