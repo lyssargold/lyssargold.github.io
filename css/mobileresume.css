@@ -1,6 +1,6 @@
 @media (max-width: 1600px){
 	nav ul li{
-		font-size: 1.05em;
+		font-size: 1.1em;
 		padding: 0.25em;
 		margin: 0.25em;
 	}
@@ -9,7 +9,7 @@
 
 @media (max-width: 1084px){
 	nav ul li{
-		font-size: 0.9em;
+		font-size: 1em;
 		padding: 0.2em;
 		margin: 0.2em;
 	}
@@ -18,7 +18,7 @@
 
 @media (max-width: 935px){
 	nav ul li{
-		font-size: 0.8em;
+		font-size: 0.9em;
 		padding: 0.1em;
 		margin: 0.18em;
 	}
@@ -31,7 +31,7 @@
 	}
 
 	#container{
-		max-width: 85%;
+		max-width: 90%;
 	}
 
 	#show{
@@ -40,6 +40,32 @@
 
 	nav, nav ul, nav ul li, nav ul li:first-child, nav ul li a{
 		display: block;
+	}
+
+	nav ul{
+	color: white;
+	background: none;
+	list-style-type: none;
+	padding: 0;
+	}
+
+	nav ul li a{
+	padding: 0.5em 1em;
+	color: white;
+	background: #5CCCCC;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+
+	nav ul li a:hover{
+	padding: 0.5em 1em;
+	color: black;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	}
 
 	nav ul li, nav ul li:first-child{
@@ -75,7 +101,7 @@
 	}
 
 	#container{
-		max-width: 90%;
+		max-width: 95%;
 	}
 
 	h1{

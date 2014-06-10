@@ -3,9 +3,9 @@ body{
 	background: url("../img/grey.png") repeat;
 }
 
-#container {
+#container{
 	margin: 0 auto;
-	max-width: 75%;
+	max-width: 85%;
 }
 
 p, h1, h2, h3{
@@ -17,9 +17,11 @@ h1{
 	font-family: 'Raleway', sans-serif;
 	font-size: 3em;
 	letter-spacing: -0.1em;
-	padding: 0.25em;
+	padding-left: 0.5em;
+	padding-top: 0.5em;
+	padding-right: 0.2em;
 	padding-bottom: 0;
-	background-color: orange;
+	background: orange;
 	color: white;
 }
 
@@ -66,7 +68,7 @@ a{
 }
 
 section a:hover, div a:hover{
-	letter-spacing: 0.25em;
+	color: orange;
 }
 
 section a:visited{
@@ -78,7 +80,11 @@ article{
 	padding: 0.4em;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	background-color: rgba(255, 255, 255, 0.45);
+	background-color: rgba(255, 255, 255, 0.55);
+}
+
+.darker{
+	background-color: rgba(92, 204, 204, 0.25);
 }
 
 article p{
@@ -92,14 +98,15 @@ section article p:last-child{
 
 nav ul{
 	color: white;
+	background: orange;
 	list-style-type: none;
-	padding: 1em 0;
+	padding: 1em;
 }
 
 nav ul li{
 	color: white;
 	display: inline;
-	font-size: 1.2em;
+	font-size: 1em;
 	padding: 0.5em;
 	margin: 0.5em;
 }
@@ -114,20 +121,23 @@ nav ul li a{
 	display: inline;
 	padding: 0.5em 1em;
 	color: white;
-	background: #5CCCCC;
 	
+	/*
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	*/
 }
 
 nav ul li a:hover{
 	padding: 0.5em 1em;
 	color: black;
-	
+
+	/*
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	*/
 }
 
 footer{
