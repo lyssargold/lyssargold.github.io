@@ -75,6 +75,10 @@ section a:visited{
 	color: #A66500;
 }
 
+section a:visited:hover{
+	color: orange;
+} 
+
 article{
 	border: 1px solid #ccc;
 	padding: 0.4em;
@@ -231,6 +235,10 @@ section img:last-child{
 }
 
 #hide{
+	display: none;
+}
+
+#see{
 	display: none;
 }
 

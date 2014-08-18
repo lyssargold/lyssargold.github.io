@@ -117,6 +117,18 @@
 		max-width: 300px;
 	}
 
+	#hide{
+		display: none;
+	}
+
+	#hide2{
+		display: none;
+	}
+
+	#see{
+		display: block;
+	}
+
 	.photos img{
 		width: 93%;
 	}
