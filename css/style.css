@@ -187,6 +187,19 @@ section img:last-child{
 	padding-bottom: 2em;
 }
 
+.clips{
+	margin: 0 auto;
+	max-width: 300px;
+}
+
+.clips img{
+	padding: 0.5em;
+	margin-bottom: 0.25em;
+	background-color: white;
+	border: black 1px solid;
+	width: 100%;
+}
+
 .category{
 	color: orange;
 }
